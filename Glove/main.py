@@ -72,25 +72,19 @@ def main(args):
         pickle.dump(word_dict, f)
     print('[Success !] Save word dict!...')
     
-#     result = []
-
-#     mat = np.zeros((len(data), args.vector_size))
-#     for i in range(len(data)):
-#         a = sent2vec_glove(data[i], word_dict)
-#         mat[i] = a
     
-#     for i in range(len(prep)):
-#         print("\n입력강의:", prep.cour_cd.iloc[i])
-#         maj_idx = cosine_similarity(mat,mat)[i].argsort()[::-1].tolist()
 
-#         print("유사강의:")
-#         for j in maj_idx:
-#             if cosine_similarity(mat,mat)[i][j] >= 0.5:
-#                 print(prep.cour_cd.iloc[j], cosine_similarity(mat,mat)[i][j])
-#                 result.append([prep.cour_cd.iloc[i], cosine_similarity(mat,mat)[i][j]])
-#     result = pd.DataFrame(result, columns = ['cour_cd', 'score'])
-#     result.to_csv("./result/sim_course_result_w{}_ep{}_sz{}.csv".format(args.window_size, args.n_epochs, args.vector_size),encoding = 'utf8')
-#     print("#------Result Saved------#")
+    mat = np.zeros((len(data), args.vector_size))
+    for i in range(len(data)):
+        a = sent2vec_glove(data[i], word_dict)
+        mat[i] = a
+    
+    b = pd.DataFrame(cosine_similarity(mat,mat), index = prep.cour_cd, columns =prep.cour_cd)
+    b.index.name = 'cour_cd1'
+    
+    final_cour_sim = pd.DataFrame(b.stack()).reset_index().rename(columns = {'cour_cd':'cour_cd2',0:'similarity'})    
+    final_cour_sim.to_csv("glove_cour_similarity_vs{}.txt".format(args.vector_size), sep='\t')
+    print("#------Result Saved------#")
     
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
