@@ -31,7 +31,7 @@ python3 main.py
 * torch-geometric==1.7.0
 
 ## Reference
-https://github.com/MichSchli/RelationPrediction
+https://github.com/MichSchli/RelationPrediction   
 https://aclanthology.org/D14-1162.pdf
 
 ## Data
