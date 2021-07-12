@@ -4,20 +4,20 @@
 * Students can reflect their preference to the recommendation result by adding(clicking) course lists
 
 
-## RGCN implementation
+## RGCN implementation(Terminal)
 ```
 python3 utils.py
 python3 model.py
 python3 main.py --n-epochs 100000 --evaluate-every 500 --graph-batch-size 45000
 ```
 
-## Glove implementation
+## Glove implementation(Terminal)
 ```
 python3 utils.py
 python3 main.py
 ```
 
-## Final recomender
+## Final recomender(Python3)
 ```
 >>> from recommend import *
 >>> rec = Recommend()
