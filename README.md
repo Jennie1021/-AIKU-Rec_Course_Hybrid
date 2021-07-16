@@ -35,9 +35,12 @@ https://github.com/MichSchli/RelationPrediction
 https://aclanthology.org/D14-1162.pdf
 
 ## Data
-num_entity: 41952
-num_relation: 24
-num_train_triples: 748751
-num_valid_triples: 8956
-num_test_triples: 27625
+num_entity: 41952   
+num_relation: 24   
+num_train_triples: 748751   
+num_valid_triples: 8956   
+num_test_triples: 27625   
+
+### RGCN metric
+
 
