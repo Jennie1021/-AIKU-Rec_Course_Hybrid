@@ -17,7 +17,7 @@ python3 utils.py
 python3 main.py
 ```
 
-## Final implementatino of recomendation 
+## Final implementation of recommendation 
 ```
 >>> from recommend import *
 >>> rec = Recommend()
