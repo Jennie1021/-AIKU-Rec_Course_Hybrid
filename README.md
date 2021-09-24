@@ -4,6 +4,11 @@
 * This model is created based on the students' feedback that they would like to refelct their course preferences to the result
 
 
+## Demo
+<img src="https://github.com/Jennie1021/RGCN-GLOVE_course_recommender/blob/main/img/AI%EC%84%A0%EB%B0%B0_%EA%B5%90%EC%96%91%EC%B6%94%EC%B2%9C.gif?raw=true" width="650" height="400"/>
+
+
+
 ## Knowlege Graph Generation
 <img src="https://github.com/Jennie1021/RGCN-GLOVE_course_recommender/blob/main/img/KG.png?raw=true" width="650" height="400"/>
 
