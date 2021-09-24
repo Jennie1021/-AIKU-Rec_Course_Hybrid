@@ -5,7 +5,7 @@
 
 
 ## Knowlege Graph Generation
-<img src=https://github.com/Jennie1021/RGCN-GLOVE_course_recommender/blob/main/img/KG.png?raw=true width="650" height="400"/>
+<img src="https://github.com/Jennie1021/RGCN-GLOVE_course_recommender/blob/main/img/KG.png?raw=true" width="650" height="400"/>
 
 ## Algorithm Logic
 <img src="https://github.com/Jennie1021/RGCN-GLOVE_course_recommender/blob/main/img/RGCN_GloVe_Course_Recommender_Logic.jpg?raw=true" width="650" height="400"/>
