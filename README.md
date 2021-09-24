@@ -1,7 +1,7 @@
 # University Course Recommnder System using R-GCN & Glove
 
 * A python implementation of course recommender system using R-GCN and GloVe
-* This model is created Based on the students' feedback that they would like to refelct their course preference to the result
+* This model is created based on the students' feedback that they would like to refelct their course preferences to the result
 
 
 ## Knowlege Graph Generation
