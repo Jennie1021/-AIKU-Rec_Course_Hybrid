@@ -44,8 +44,3 @@ num_relation: 24
 num_train_triples: 748751   
 num_valid_triples: 8956   
 num_test_triples: 27625   
-
-### RGCN metric
-
-
-
