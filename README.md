@@ -4,6 +4,10 @@
 * This model is created Based on the students' feedback that they would like to refelct their course preference to the result
 
 
+## Algorithm Logic
+<img src="https://github.com/Jennie1021/RGCN-GLOVE_course_recommender/blob/main/img/RGCN_GloVe_Course_Recommender_Logic.jpg?raw=true" width="400" height="200"/>
+
+
 ## RGCN implementation
 ```
 python3 utils.py
@@ -42,5 +46,6 @@ num_valid_triples: 8956
 num_test_triples: 27625   
 
 ### RGCN metric
+
 
 
