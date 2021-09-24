@@ -5,7 +5,7 @@
 
 
 ## Algorithm Logic
-<img src="https://github.com/Jennie1021/RGCN-GLOVE_course_recommender/blob/main/img/RGCN_GloVe_Course_Recommender_Logic.jpg?raw=true" width="650" height="500"/>
+<img src="https://github.com/Jennie1021/RGCN-GLOVE_course_recommender/blob/main/img/RGCN_GloVe_Course_Recommender_Logic.jpg?raw=true" width="650" height="400"/>
 
 
 ## RGCN implementation
