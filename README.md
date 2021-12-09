@@ -9,7 +9,7 @@
 
 
 
-## Knowlege Graph Generation
+## Knowlege Graph Generation(example)
 <img src="https://github.com/Jennie1021/RGCN-GLOVE_course_recommender/blob/main/img/KG.png?raw=true" width="650" height="400"/>
 
 ## Algorithm Logic
